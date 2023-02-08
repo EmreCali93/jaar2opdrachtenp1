@@ -1,7 +1,7 @@
 <?php
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8">
-	<title>Formuliere</title>
+	<title>Formulier</title>
 </head>
 <body>
 <h3>Op deze pagina kunt u uw gegevens invullen en versturen.</h3>
