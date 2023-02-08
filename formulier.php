@@ -1,5 +1,4 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
-<html lang="nl">
+<?php
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8">
 	<title>Formuliere</title>
@@ -14,4 +13,4 @@
 <p><input name="Submit" type="submit"></p>
 </form>
 </body>
-</html>
+?>
