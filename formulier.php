@@ -2,10 +2,10 @@
 <html lang="nl">
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8">
-	<title>Formuliertje</title>
+	<title>Formuliere</title>
 </head>
 <body>
-<h3>Hierbij kunt u uw gegevens invullen en versturen.</h3>
+<h3>Op deze pagina kunt u uw gegevens invullen en versturen.</h3>
 <form action="FormulierAfhandeling.php" method="post">
 <p>Voornaam: <input name="VoorNaam" type="text" size="30" maxlength="80"></p>
 <p>Achternaam: <input name="AchterNaam" type="text" size="30" maxlength="80"></p>
