@@ -4,7 +4,7 @@
 	</head>
 <body>
 
-	<h3>opdracht 1 login</h3>
+	<h3>Inloggen</h3>
 	<hr/>
 	
 	<form action="" method="POST">	
