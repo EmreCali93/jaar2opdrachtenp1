@@ -1,24 +1,25 @@
-<?php
+<!DOCTYPE html>
+<html lang="nl">
+	<head>
+	</head>
+<body>
 
-<head>
-	<meta http-equiv="content-type" content="text/html; charset=utf-8">
-	<title>Formulier</title>
-</head>
-
-<form id='login' action='login.php' method='post' accept-charset='UTF-8'>
-<fieldset>
-<legend>Login</legend>
-<input type='hidden' name='submitted' id='submitted' value='1'/>
-
-<label for='username' >UserName*:</label>
-<input type='text' name='username' id='username'  maxlength="50"/>
-
-<label for='password' >Password*:</label>
-<input type='password' name='password' id='password' maxlength="50"/>
-
-<input type='submit' name='Submit' value='Submit'/>
-
-</fieldset>
-</form>
-
-?>
+	<h3>opdracht 1 login</h3>
+	<hr/>
+	
+	<form action="" method="POST">	
+		<p>Voornaam:</p>
+		<input type="text" name="voornaam" placeholder="voornaam"><br>
+		<p>Voornaam:</p>
+		<input type="text" name="Achternaam" placeholder="Achternaam"><br>
+		<label>Password
+			<input type="text" name="password"><br>
+		</label>
+		<input type="submit" name="login-btn" value="check"> 
+		<p>Voornaam:</p>
+		<input type="text" name="Bericht" placeholder="Bericht"><br>
+	</form>
+	
+	
+<body>
+</html>
