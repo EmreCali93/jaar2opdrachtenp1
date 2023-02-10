@@ -10,13 +10,13 @@
 	<form action="" method="POST">	
 		<p>Voornaam:</p>
 		<input type="text" name="voornaam" placeholder="voornaam"><br>
-		<p>Voornaam:</p>
+		<p>Achternaam:</p><br>
 		<input type="text" name="Achternaam" placeholder="Achternaam"><br>
 		<label>Password
 			<input type="text" name="password"><br>
 		</label>
 		<input type="submit" name="login-btn" value="check"> 
-		<p>Voornaam:</p>
+		<p>Bericht:</p>
 		<input type="text" name="Bericht" placeholder="Bericht"><br>
 	</form>
 	
