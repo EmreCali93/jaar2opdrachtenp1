@@ -9,10 +9,9 @@
 
 <form action="FormulierAfhandeling.php" method="post">
 
-<p>Voornaam: <input name="VoorNaam" type="text" size="30" maxlength="80"></p>
-<p>Achternaam: <input name="AchterNaam" type="text" size="30" maxlength="80"></p>
+<p>Username: <input name="Username" type="text" size="30" maxlength="80"></p>
+<p>Password: <input name="Password" type="text" size="30" maxlength="80"></p>
 <p>Email: <input name="EmailAdres" type="text" size="30" maxlength="80"></p>
-<p>Bericht: <textarea name="BeRicht" style="width: 250px; height: 40px;"></textarea></p>
 <p><input name="Submit" type="submit"></p>
 </form>
 
