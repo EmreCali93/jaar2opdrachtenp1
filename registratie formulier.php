@@ -7,8 +7,7 @@
 <h2>Registratie</h2>
 <h3>Op deze pagina kunt u uw gegevens invullen en versturen.</h3>
 
-<form action="FormulierAfhandeling.php" method="post">
-
+<form>
 <p>Username: <input name="Username" type="text" size="30" maxlength="80"></p>
 <p>Password: <input name="Password" type="text" size="30" maxlength="80"></p>
 <p>Email: <input name="EmailAdres" type="text" size="30" maxlength="80"></p>
