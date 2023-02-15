@@ -8,16 +8,10 @@
 	<hr/>
 	
 	<form action="" method="POST">	
-		<p>Voornaam:</p>
-		<input type="text" name="voornaam" placeholder="voornaam"><br>
-		<p>Achternaam:</p>
-		<input type="text" name="Achternaam" placeholder="Achternaam"><br><br>
-		<label>Password:
-			<input type="text" name="password">
-		</label>
-		<input type="submit" name="login-btn" value="check"> 
-		<p>Bericht:</p>
-		<input type="text" name="Bericht" placeholder="Bericht"><br>
+		<p>Username:</p>
+		<input type="text" name="Username" placeholder="Username"><br>
+		<p>Password:</p>
+		<input type="text" name="Password" placeholder="Password"><br>
 	</form>
 	
 	
