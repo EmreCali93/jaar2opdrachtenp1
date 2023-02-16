@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Gegenereerd op: 15 feb 2023 om 08:23
+-- Gegenereerd op: 16 feb 2023 om 14:15
 -- Serverversie: 8.0.28
 -- PHP-versie: 8.1.2
 
@@ -28,7 +28,7 @@ SET time_zone = "+00:00";
 --
 
 CREATE TABLE `user` (
-  `User_name` int NOT NULL,
+  `id_user` int NOT NULL,
   `Username` varchar(32) NOT NULL,
   `Password` varchar(32) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
@@ -41,7 +41,7 @@ CREATE TABLE `user` (
 -- Indexen voor tabel `user`
 --
 ALTER TABLE `user`
-  ADD PRIMARY KEY (`User_name`);
+  ADD PRIMARY KEY (`id_user`);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
