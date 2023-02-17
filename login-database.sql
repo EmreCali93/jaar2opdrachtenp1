@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Gegenereerd op: 17 feb 2023 om 18:20
+-- Gegenereerd op: 17 feb 2023 om 18:26
 -- Serverversie: 8.0.28
 -- PHP-versie: 8.1.2
 
@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `inlog_db`
+-- Database: `login-database`
 --
 
 -- --------------------------------------------------------
