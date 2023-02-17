@@ -5,7 +5,7 @@
     <?php
 
     $server = "localhost";
-    $db = "inlog_db";
+    $db = "inlog-database";
     $user = "root";
     $pass = "";
 
