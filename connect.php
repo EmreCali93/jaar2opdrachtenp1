@@ -5,7 +5,7 @@
     <?php
 
     $server = "localhost";
-    $db = "login-database";
+    $db = "database-login";
     $user = "root";
     $pass = "";
 
