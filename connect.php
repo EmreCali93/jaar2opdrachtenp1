@@ -1,34 +1,22 @@
-<!DOCTYPE html>
-<html>
-    <body>
+<?php
 
-    <?php
+$host = "localhost";
+$dbname = "database-login";
+$username = "root";
+$password = "";
 
-    $server = "localhost";
-    $db = "database-login";
-    $user = "root";
-    $pass = "";
+$mysqli = new mysqli(hostname: $host,
+                     username: $username,
+                     password: $password,
+                     database: $dbname);
 
-    $options = [
-        PDO::ATTR_ERRMODE               => PDO::ERRMODE_EXCEPTION,
-        PDO::ATTR_DEFAULT_FETCH_MODE    => PDO::FETCH_ASSOC,
-        PDO::ATTR_EMULATE_PREPARES      => false, 
-    ];
+if ($mysqli->connect_errno) {
+  die("Connection error: " . $mysqli->connect_error);
+}
 
+return $mysqli;
 
-    try {
-    $conn = new PDO("mysql:host=$server; dbname=$db", $user, $pass, $options);
-    echo "Connected successfully </br>";
-    } catch(PDOException $e) {
-      echo "Connection failed: " . $e->getMessage() . "</br>" . (int)$e->getCode();
-    }
+?>
 
 
-    $conn = null;
 
-
-    ?>
-
-
-</body>
-</html>
