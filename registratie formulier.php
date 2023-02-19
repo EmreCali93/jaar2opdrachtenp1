@@ -7,7 +7,7 @@
 <h2>Registratie</h2>
 <h3>Op deze pagina kunt u uw gegevens invullen en versturen.</h3>
 
-<form action="registratievalidatie.php" method="post" id="signup" novalidate>
+<form action="registratie validatie.php" method="post" id="signup" novalidate>
 	<div>
 		<label for="name">Name</label>
 		<input type="text" id="name" name="name">
