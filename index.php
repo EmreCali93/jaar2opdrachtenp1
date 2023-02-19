@@ -34,7 +34,7 @@ if (isset($_SESSION["user_id"])) {
         
     <?php else: ?>
         
-        <p><a href="">Inloggen</a> or <a href="registratieformulier.php">Registeren</a></p>
+        <p><a href="">Inloggen</a> or <a href="registratievalidatie.php">Registeren</a></p>
         
     <?php endif; ?>
     
